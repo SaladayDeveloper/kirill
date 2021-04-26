@@ -1113,7 +1113,7 @@ def end_game(user_id, req, res):
         }
     elif req['request']['original_utterance'] == "Ловить все его стрелы и кидать в него":
         res['response'] = {
-            'text': f"Такой глупости я ещё не видел..."
+            'text': f"Такой глупости я ещё не видел... "
                     f"Премия Дарвина у тебя в кармане!",
             'buttons': [
                 {
@@ -1143,7 +1143,7 @@ def end_game(user_id, req, res):
         }
     elif req['request']['original_utterance'] == "Предложить попить чай с конфетами":
         res['response'] = {
-            'text': f"{enemy_class[1]['name']} не отказался. Вы ушли с поля боя пить чай"
+            'text': f"{enemy_class[1]['name']} не отказался. Вы ушли с поля боя пить чай. "
                     f"Ищи плюсы! Зато ты жив!",
             'buttons': [
                 {
